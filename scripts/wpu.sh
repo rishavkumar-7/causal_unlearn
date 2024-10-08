@@ -1,4 +1,4 @@
-master_port=29500
+master_port=29534
 model=llama2-7b
 # model=Llama-3.2-1B
 num_epochs=10
