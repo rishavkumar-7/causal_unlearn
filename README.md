@@ -47,7 +47,7 @@ The possible splits are:
 To run experiments on WPU, use
 
 ```
-bash scripts/wpu.sh -f intervention -s ${save_dir_root} -g 0,1 -n 20
+bash scripts/wpu.sh -f "intervention" -s "save_dir_root" -g "0,1" -n "20"
 ```
 The four arguments are:
 - `f forget_loss`: Which forget loss to use. Set to `intervention` for our method. Other choices are `{whp, npo, grad_diff}`.
